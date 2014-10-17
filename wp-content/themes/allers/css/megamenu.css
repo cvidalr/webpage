@@ -1,0 +1,153 @@
+@font-face {
+ font-family: 'proxima_novalight';
+ src: url('../fonts/proximanova-light-1-webfont.eot');
+ src: url('../fonts/proximanova-light-1-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/proximanova-light-1-webfont.woff') format('woff'),  url('../fonts/proximanova-light-1-webfont.ttf') format('truetype'),  url('../fonts/proximanova-light-1-webfont.svg#proxima_novalight') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+.blue {
+	clear:both;
+	margin-bottom:10px;
+}
+.mega-menu ul, .mega-menu ul li {
+	list-style: none;
+}
+.mega-menu ul {
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+.mega-menu ul li ul {
+	display: none;
+}
+.mega-menu .sub {
+	display: none;
+}
+.mega-menu .sub ul {
+	display: block;
+}
+.blue ul.mega-menu, .blue ul.mega-menu, .blue ul.mega-menu li {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.blue ul.mega-menu {
+	background:url(../images/menu.png) no-repeat 0 0;
+	width: 100%;
+	height: 44px;
+	position: relative;
+	font-size:14px;
+	line-height:20px;
+}
+.blue ul.mega-menu li {
+	float: left;
+	background: url(../images/menuD.png) no-repeat 0 0;
+}
+.blue ul.mega-menu li:first-child {
+	float: left;
+	background: none;
+}
+.blue ul.mega-menu li a {
+	float: left;
+	display: block;
+	color: #575353;
+	padding: 12px 20px 12px 23px;
+	-moz-padding-start: 22px;
+	text-decoration: none;
+}
+.blue ul.mega-menu li a.dc-mega {
+	position: relative;
+}
+.blue ul.mega-menu li a .dc-mega-icon {
+	display: block;
+	position: absolute;
+	top: 18px;
+	right: 15px;
+	width: 8px;
+	height: 6px;
+	background: url(../images/arrow.png) no-repeat 0 0;
+}
+.blue ul.mega-menu li.mega-hover a, .blue ul.mega-menu li a:hover {
+	color: #ee2e24;
+}
+.blue ul.mega-menu li.mega-hover a .dc-mega-icon {
+	background-position: 0 100%;
+}
+.blue ul.mega-menu li .sub-container {
+	position: absolute;
+	background: url(../images/bg_sub_left.png) no-repeat 0 100%;
+	padding-left: 20px;
+	margin-left: -3px;
+}
+.blue ul.mega-menu li .sub {
+	background: url(../images/bg_sub.png) no-repeat 100% 100%;
+	padding: 20px 20px 20px 10px;
+}
+.blue ul.mega-menu li .sub-container.mega .sub {
+	padding: 20px 20px 10px 0;
+}
+.blue ul.mega-menu li .sub .row {
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+}
+.blue ul.mega-menu li .sub li {
+	float: none;
+	width: 173px;
+	background:none;
+}
+.blue ul.mega-menu li .sub li.mega-hdr {
+	margin: 0 10px 10px 0;
+	float: left;
+}
+.blue ul.mega-menu li .sub li.mega-hdr.last {
+	margin-right: 0;
+}
+.blue ul.mega-menu li .sub a {
+	background: none;
+	border: none;
+	text-shadow: none;
+	color: #111;
+	padding: 7px 10px;
+	display: block;
+	float: none;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+.blue ul.mega-menu li .sub li.mega-hdr a.mega-hdr-a {
+	padding: 5px 5px 5px 15px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	color: #e5251a;
+}
+.blue ul.mega-menu li .sub li.mega-hdr a.mega-hdr-a:hover {
+	color: #000;
+}
+.blue ul.mega-menu .sub li.mega-hdr li a {
+	padding: 4px 5px 4px 20px;
+	background: url(../images/arrow_off.png) no-repeat 5px 8px;
+	font-weight: normal;
+}
+.blue ul.mega-menu .sub li.mega-hdr li a:hover {
+	color: #a32403;
+	background: #efefef url(../images/arrow_on.png) no-repeat 5px 8px;
+}
+.blue ul.mega-menu .sub ul li {
+	padding-right: 0;
+}
+.blue ul.mega-menu li .sub-container.non-mega .sub {
+	padding: 20px 20px 20px 0;
+}
+.blue ul.mega-menu li .sub-container.non-mega li {
+	padding: 0;
+	width: 190px;
+	margin: 0;
+}
+.blue ul.mega-menu li .sub-container.non-mega li a {
+	padding: 7px 5px 7px 22px;
+	background: url(../images/arrow_off.png) no-repeat 7px 10px;
+}
+.blue ul.mega-menu li .sub-container.non-mega li a:hover {
+	color: #a32403;
+	background: #efefef url(../images/arrow_on.png) no-repeat 7px 10px;
+}

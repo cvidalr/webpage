@@ -1,0 +1,9 @@
+$(window).load(function(){
+	$('.slider')._TMS({
+		preset:'diagonalFade',
+		easing:'easeOutQuad',
+		pagination:true,
+		duration:800,
+		slideshow:6000
+	})
+})
